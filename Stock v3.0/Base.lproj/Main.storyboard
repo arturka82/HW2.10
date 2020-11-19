@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="krj-oa-uJ8">
-                                <rect key="frame" x="0.0" y="589" width="390" height="221"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krj-oa-uJ8">
+                                <rect key="frame" x="0.0" y="610" width="390" height="216"/>
                             </pickerView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="ITD-Pk-OWw">
                                 <rect key="frame" x="185" y="412" width="20" height="20"/>
@@ -81,12 +80,15 @@
                             <constraint firstItem="WJL-ij-XF5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1ML-fr-7Nw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WJL-ij-XF5" secondAttribute="trailing" constant="16" id="6FA-uG-I3C"/>
                             <constraint firstItem="WJL-ij-XF5" firstAttribute="top" secondItem="kWE-79-Sb7" secondAttribute="bottom" constant="8" id="8Ro-BF-uIa"/>
+                            <constraint firstItem="krj-oa-uJ8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9CI-G3-ufP"/>
                             <constraint firstItem="kKR-Fu-GHB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112.66666666666669" id="D0S-H6-iFZ"/>
                             <constraint firstItem="kWE-79-Sb7" firstAttribute="top" secondItem="kKR-Fu-GHB" secondAttribute="bottom" constant="8" id="DDj-7H-qRs"/>
+                            <constraint firstItem="krj-oa-uJ8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gqn-4O-8Ze"/>
                             <constraint firstItem="kKR-Fu-GHB" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="165:844" id="TQG-kb-klU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kKR-Fu-GHB" secondAttribute="trailing" constant="112.33333333333331" id="YbT-M1-dNz"/>
                             <constraint firstItem="kKR-Fu-GHB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="cs1-03-xKb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kWE-79-Sb7" secondAttribute="trailing" constant="16" id="cyn-k0-h9Q"/>
+                            <constraint firstItem="krj-oa-uJ8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="16" id="dVd-dQ-nfW"/>
                             <constraint firstItem="kWE-79-Sb7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eiU-Dz-TjG"/>
                             <constraint firstItem="ITD-Pk-OWw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="le4-bG-fAO"/>
                             <constraint firstItem="ITD-Pk-OWw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="s2n-Oo-pbG"/>
